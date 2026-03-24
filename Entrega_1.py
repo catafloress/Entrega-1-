@@ -75,4 +75,8 @@ while True:
         puntaje = 0
 
     print("Puntaje: ", puntaje)
+
+    seguir = input("Queres jugar otra ronda? (s/n):")
+    if seguir != "s":
+        break
     
